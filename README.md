@@ -24,4 +24,4 @@
 
 >HWasnPhtq9AVKe0dmk45nxy20cvUa6EG  
 
-//find . -type f -size 1033c ! -exec file {} \; | grep "ASCII text"  
+~~find . -type f -size 1033c ! -exec file {} \; | grep "ASCII text"  ~~
