@@ -1,4 +1,5 @@
 # Chagl1SO1_Clase1
+<<<<<<< HEAD
  Level 1
 >ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 2.Level 2
