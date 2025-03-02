@@ -24,74 +24,45 @@
 
 >HWasnPhtq9AVKe0dmk45nxy20cvUa6EG  
 
-~~find . -type f -size 1033c ! -exec file {} \; | grep "ASCII text"~~  
-
 7. Level 7
 
 >morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
-
-~~find / -user bandit7 -group bandit6 -size 33c 2>/dev/null~~
 
 8. Level 8
 
 >dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 
-~~grep "millionth" data.txt~~
-
 9. Level 9
 
 >4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
-
-~~sort data.txt |uniq -c~~
 
 10. Level 10
 
 >FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 
-~~strings data.txt~~
-
 11. Level 11
 
 >dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
-
-~~cat data.txt |base64 -d~~
 
 12. Level 12
 
 >7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 
-~~cat data.txt |tr "A-Za-z" "N-ZA-Mn-za-m"~~
-
 13. Level 13
 
 >FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
-
-~~mktmp -d~~
-~~xxd -r data.hex > data.bin~~
-~~mv origen destino (mover renombrar)~~
-~~cp origen destino~~
-~~gunzip data.gz~~
-~~bzip2 -d data.bz~~
-~~2tar -xf data.tar~~
 
 14. Level 14 
 
 >MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 
-~~ssh -i ./sshkey.private bandit14@localhost -p 2220~~
-~~chmod 600 sshkey.private~~
-
 15. Level 15
 
 >8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 
-~~nc localhost 30000~~
-
 16. Level 16
 
 >kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
-
-~~openssl s_client -connect localhost:30001~~
 
 17. Level 17
 
@@ -123,23 +94,13 @@ dxviW8+TFVEBl1O4f7HVm6EpTscdDxU+bCXWkfjuRb7Dy9GOtt9JPsX8MBTakzh3
 vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
 -----END RSA PRIVATE KEY-----
 
-~~mktmp -d~~
-~~nano ssh.private~~
-~~chmod 600 ssh.private~~
-
 18. Level 18
 
 >x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
 
-~~diff a1.txt a2.txt~~
-
 19. Level 19
 
 >cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
-
-~~ssh bandit18@bandit.labs.overthewire.org -p 2220 -t "bash --noprofile --norc"~~
-~~scp -P 2220 bandit18@bandit.labs.overthewire.org:~/readme .~~
-~~ssh banditXX@bandit.labs.overthewire.org -p 2220 cat readme~~
 
 20. Level 20
 
